@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="section_one">
+        <div class="h1">
+            <h1 class="hh1">ПРОПИСАВ ЧЕЛОВЕКА В ФОРМУ - ДОБАВЬТЕ ЕГО В НЕОБХОДИМУЮ КОЛОНКУ</h1>
+        </div>
+
+        <form  name="onsubmit" class="submit">
+            <div class="inp__">
+            <div class="inp">
+                <p class="inp_title">Имя</p>
+                <input name="firstName" class="inp_text" type="text">
+            </div>
+            <div class="inp">
+                <p class="inp_title">Возраст</p>
+                <input name="age" class="inp_text"  type="text">
+            </div>
+
+            <div class="btn">
+                <button class="add">Добавить</button>
+            </div>
+</div>
+        </form>
+
+<div class="cont">
+<div class="container">
+    <h1 class="title_text">Люди до 25</h1>
+
+</div>
+<div class="container_two">
+    <h1 class="title_text">Люди до 50</h1>
+
+</div>
+<div class="container_three">
+    <h1 class="title_text">Остальные</h1>
+
+</div>
+
+
+    </div>
+
+    <div class="loader">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
